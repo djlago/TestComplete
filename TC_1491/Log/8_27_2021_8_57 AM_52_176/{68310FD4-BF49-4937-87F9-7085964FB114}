@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3738030208"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSoccer.sectionContent.linkShowDetailsForOfficialGame.imageShowDetailsForOfficialGame&#xA;(Sys.Browser(&quot;Remote&quot;, 5).Page(&quot;https://smartstore.alertsite.com/torfabrik-official-game-ball&quot;).FindElement(&quot;//img[@title='Show details for Official game ball']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3738408449"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTorfabrikOfficialGameBall.panel&#xA;(Sys.Browser(&quot;Remote&quot;, 4).Page(&quot;https://smartstore.alertsite.com/torfabrik-official-game-ball&quot;).FindElement(&quot;//div[contains(@class, 'canvas-blocker')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://smartstore.alertsite.com/ page."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3737216667"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="URL: https://smartstore.alertsite.com/&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;Remote&quot;, 5).Page(&quot;data:,&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3738182176"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTorfabrikOfficialGameBall.sectionContent.articleOfficialGameBall.asideOfficialGameBall.linkAddToCart&#xA;(Sys.Browser(&quot;Remote&quot;, 4).Page(&quot;https://smartstore.alertsite.com/torfabrik-official-game-ball&quot;).FindElement(&quot;//a[contains(., 'Add to cart')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{0E8A95E4-7FA9-4E17-A8E7-FBF952A2E47D}"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3737553009"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageShop.sectionContent.articleSoccer.linkShowProductsInCategorySoccer.imagePictureForCategorySoccer&#xA;(Sys.Browser(&quot;Remote&quot;, 5).Page(&quot;https://smartstore.alertsite.com/soccer&quot;).FindElement(&quot;//img[contains(@src, 'soccer.png')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 8">
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="message" type="S" value="The BrowserWindow(0) window was closed."/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3738952662"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt; 			&lt;body&gt; 				The browser was run with the following capabilities: 				&lt;pre&gt;{&#xA;  &quot;browserName&quot; : &quot;Chrome&quot;,&#xA;  &quot;platform&quot; : &quot;Windows 10&quot;,&#xA;  &quot;screenResolution&quot; : &quot;1366x768&quot;,&#xA;  &quot;version&quot; : &quot;92&quot;&#xA;}&lt;/pre&gt; 				&lt;p&gt;The hub URL: 					&lt;a href = 'aqa-url://http://hub.crossbrowsertesting.com:80/wd/hub'&gt;http://hub.crossbrowsertesting.com:80/wd/hub&lt;/a&gt; 				&lt;/p&gt; 				&lt;p&gt; 					See the details of your test run at &lt;a href = 'aqa-url://https://app.crossbrowsertesting.com/selenium/5797fe3aa66ad0c00602c7dbd70612cb'&gt;CrossBrowserTesting App&lt;/a&gt;. 				&lt;/p&gt; 			&lt;/body&gt; 		&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Aliases.browser.BrowserWindow&lt;br /&gt;(Sys.Browser(&quot;Remote&quot;, 5).BrowserWindow(0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Remote Chrome was launched."/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3736565625"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt; 			&lt;body&gt; 				The browser was run with the following capabilities: 				&lt;pre&gt;{&#xA;  &quot;browserName&quot; : &quot;Chrome&quot;,&#xA;  &quot;platform&quot; : &quot;Windows 10&quot;,&#xA;  &quot;screenResolution&quot; : &quot;1366x768&quot;,&#xA;  &quot;version&quot; : &quot;92&quot;&#xA;}&lt;/pre&gt; 				&lt;p&gt;The hub URL: 					&lt;a href = 'aqa-url://http://hub.crossbrowsertesting.com:80/wd/hub'&gt;http://hub.crossbrowsertesting.com:80/wd/hub&lt;/a&gt; 				&lt;/p&gt; 				&lt;p&gt; 					See the details of your test run at &lt;a href = 'aqa-url://https://app.crossbrowsertesting.com/selenium/5797fe3aa66ad0c00602c7dbd70612cb'&gt;CrossBrowserTesting App&lt;/a&gt;. 				&lt;/p&gt; 			&lt;/body&gt; 		&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3738317014"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at the center with the no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTorfabrikOfficialGameBall.asideOffcanvasCart.linkRemove&#xA;(Sys.Browser(&quot;Remote&quot;, 4).Page(&quot;https://smartstore.alertsite.com/torfabrik-official-game-ball&quot;).FindElement(&quot;//a[@title='Remove']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="message" type="S" value="The BrowserWindow(0) window was maximized."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44435.3737286111"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;Remote&quot;, 5).BrowserWindow(0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

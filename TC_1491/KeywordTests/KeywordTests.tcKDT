@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Phone1" key="{62506E28-BBDF-4C69-92DC-B1B546CFB855}" path="Phone1.tcKDTest" />
+		<child name="GiftCard" key="{F685FF51-098B-4545-97E9-45E1E3464934}" path="GiftCard.tcKDTest" />
+		<child name="ContactUs1" key="{DB09E7E3-6DF6-481F-8387-E3F4BA6B382F}" path="ContactUs1.tcKDTest" />
+		<child name="Soccer_Ball" key="{0E8A95E4-7FA9-4E17-A8E7-FBF952A2E47D}" path="Soccer_Ball.tcKDTest" />
+		<child name="orders" key="{1EB256E5-F012-4DF8-B8FD-2C5E5FDC011F}" path="orders.tcKDTest" />
+	</children>
+</Root>

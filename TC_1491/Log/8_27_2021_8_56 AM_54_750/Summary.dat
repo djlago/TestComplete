@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The test execution was interrupted."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="39479"/>
+						<Prp name="starttime" type="D" value="44435.3728556597"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADcARgA5ADIAQwAzAEQALQA2ADIANQAxAC0ANAA0AEMARAAtADgAQQAyADMALQAwAEUARQAyADQAOQAzADQANQA2ADcAOAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="39479"/>
+						<Prp name="name" type="S" value="Soccer_Ball"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="39479"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44435.3728556597"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TC_1492"/>
+				<Prp name="failedtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TC_1492: CBT\Soccer_Ball"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="user" type="S" value="Daniel.Lagomarsino"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="TC_1492"/>
+		<Prp name="starttime" type="D" value="44435.3728555208"/>
+		<Prp name="key" type="S" value="{5DE86AFE-0586-40C1-837D-640422624AEB}"/>
+		<Prp name="stop" type="D" value="44435.3733126273"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="SB-MA-PC166XTX"/>
+	</Node>
+</Nodes>

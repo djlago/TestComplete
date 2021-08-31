@@ -1,0 +1,7 @@
+﻿
+
+def Test1():
+    #Clicks the 'BrowserWindow' object.
+    Aliases.browser.BrowserWindow.Click(1901, 61)
+    #Simulates one or several keypresses.
+    Aliases.browser.pageNewtab.Keys("Ctrl+p")

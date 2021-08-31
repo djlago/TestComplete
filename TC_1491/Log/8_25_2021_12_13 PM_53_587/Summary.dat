@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="BB_Android1"/>
+						<Prp name="duration" type="I" value="79783"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADgARQA2ADEAMQA1ADUALQBEAEYANwAzAC0ANAA4AEMARgAtADkAMgBDADQALQA0ADAAQQBGAEMAQQBBADYAMAAwAEIAOAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="starttime" type="D" value="44433.5096477431"/>
+						<Prp name="durationwithoutchildren" type="I" value="79783"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="TC_1491"/>
+				<Prp name="duration" type="I" value="79783"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44433.5096477431"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TC_1491: BitBar Int\BB_Android1"/>
+		<Prp name="user" type="S" value="Daniel.Lagomarsino"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="key" type="S" value="{DBAB1CA7-3445-47AF-A699-63C97E7C4DB0}"/>
+		<Prp name="stop" type="D" value="44433.5105720486"/>
+		<Prp name="name" type="S" value="TC_1491"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="host" type="S" value="SB-MA-PC166XTX"/>
+		<Prp name="starttime" type="D" value="44433.5096474884"/>
+	</Node>
+</Nodes>

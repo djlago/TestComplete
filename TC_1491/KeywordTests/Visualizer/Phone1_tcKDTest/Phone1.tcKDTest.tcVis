@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{62506E28-BBDF-4C69-92DC-B1B546CFB855}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44397.5582638889" objectName="Aliases.browser.pageShop.sectionContent.article.linkApple.imageMobilePhonePngSize250" objectLeft="483" objectTop="718" objectRight="645" objectBottom="928" clickPointX="561" clickPointY="820" imageFileName="tcvi7852059354529.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44397.5582986111" objectName="Aliases.browser.pageApple.sectionContent.linkIphonePlus.imagePhoneMinusPngSize250" objectLeft="1501" objectTop="832" objectRight="1762" objectBottom="1028" clickPointX="1591" clickPointY="927" imageFileName="tcvi78524125545214.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44397.5583449074" objectName="Aliases.browser.BrowserWindow" objectLeft="-11" objectTop="-11" objectRight="2571" objectBottom="1391" clickPointX="-1" clickPointY="-1" imageFileName="tcvi78527750545218.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

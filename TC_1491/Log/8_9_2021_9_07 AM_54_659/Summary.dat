@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="49952"/>
+						<Prp name="starttime" type="D" value="44417.3804934838"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADgANAA4AEYANgA2AEUALQBCADYARgAyAC0ANAAzADMANgAtADkAQgBCAEUALQA0AEEAMwBEADAAQQAwADgAMQA4AEEAQgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="49952"/>
+						<Prp name="name" type="S" value="Phone1"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="44417.3804934838"/>
+				<Prp name="duration" type="I" value="49952"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TC_1491"/>
+			</Node>
+		</Node>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="Daniel.Lagomarsino"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="host" type="S" value="SB-MA-PC166XTX"/>
+		<Prp name="testname" type="S" value="TC_1491: Phone1"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44417.3804932292"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44417.381076794"/>
+		<Prp name="name" type="S" value="TC_1491"/>
+		<Prp name="key" type="S" value="{2A772F1D-73D1-4BFD-BDBC-BE11FF9A8F63}"/>
+		<Prp name="warningtests" type="I" value="0"/>
+	</Node>
+</Nodes>

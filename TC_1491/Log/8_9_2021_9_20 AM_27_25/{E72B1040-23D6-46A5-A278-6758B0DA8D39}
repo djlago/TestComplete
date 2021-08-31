@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="name" type="S" value="Test1 [KeywordTests - Test1]"/>
+				<Prp name="details" type="S" value="{01B4603F-09FB-458A-B94D-728FFE14F461}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44417.3892019213"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44417.3893047917"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="name" type="S" value="Mobile_SmartStore [KeywordTests - Mobile_SmartStore]"/>
+				<Prp name="details" type="S" value="{B25BEC1A-03C0-4394-A0F1-88BAC9AF461A}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44417.389304919"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="44417.389422338"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="name" type="S" value="ContactUs1 [KeywordTests - ContactUs1]"/>
+				<Prp name="details" type="S" value="{768AFED4-756B-4038-903D-FDC8BA727314}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44417.3896450116"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="end time" type="D" value="44417.3899651042"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="name" type="S" value="GiftCard [KeywordTests - GiftCard]"/>
+				<Prp name="details" type="S" value="{A76FC17D-AEF9-4EF0-9225-0A3B59D15963}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44417.3894224537"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44417.3896449537"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

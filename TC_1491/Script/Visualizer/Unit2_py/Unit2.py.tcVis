@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{5F939821-7420-4400-9FE0-12B8D30145FE}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44439.6908564815" objectName="Aliases.browser.BrowserWindow" objectLeft="-8" objectTop="-8" objectRight="1928" objectBottom="1048" clickPointX="1893" clickPointY="53" imageFileName="tcvi-90986867170760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="0" dateTime="44417.5552314815" objectName="Aliases.browser.pageShop.sectionContent.article2.linkGiftCards.imageGiftCardsPngSize250" objectLeft="1586" objectTop="1084" objectRight="1796" objectBottom="1216" clickPointX="1640" clickPointY="1174" imageFileName="tcvi1472569796115724.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="18" kind="0" dateTime="44417.5554513889" objectName="Aliases.browser.BrowserWindow" objectLeft="-11" objectTop="-11" objectRight="2571" objectBottom="1391" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1472588171115728.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
